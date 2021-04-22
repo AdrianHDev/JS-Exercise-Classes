@@ -49,7 +49,7 @@ class Airplane {
     }
 
     eat(someFood) {
-      if (this.stomach.length != 10){
+      if (this.stomach.length < 10){
         this.stomach.push(someFood);
       }
     }
